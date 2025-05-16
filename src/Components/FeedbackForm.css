@@ -40,6 +40,12 @@ nav{
   .feedback-form textarea {
     resize: vertical;
   }
+
+  .feedback-form div {
+    display:'flex';
+    gap:'10px';
+    flex-direction:'column'
+  }
   
   .feedback-form button {
     background-color: #ff0051;
